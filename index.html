@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hóa Học THCS – Lộ Trình 2 Năm Chinh Phục HSG & Chuyên Hóa</title>
+  <link rel="stylesheet" href="./libs/katex/katex.min.css" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer src="./libs/katex/katex.min.js"></script>
+  <script defer src="./libs/katex/mhchem.min.js"></script>
+  <script defer src="./libs/katex/auto-render.min.js"></script>
+</head>
+<body>
+  <div id="app-shell">
+    <!-- Top Header (hidden on print) -->
+    <header class="topbar no-print">
+      <div class="topbar-left">
+        <button id="btn-toggle-sidebar" class="icon-btn" title="Ẩn/Hiện danh sách tuần">☰</button>
+        <div class="brand">
+          <span class="brand-badge">72 TUẦN</span>
+          <div>
+            <h1>Hóa Học THCS (Lộ Trình 2 Năm)</h1>
+            <p class="subtitle">Tự học • Chấm điểm tự động • Ba rem HSG 9 &amp; Chuyên Hóa 10 • In A4</p>
+          </div>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <button id="btn-ref-table" class="btn btn-outline">🧪 Bảng tra cứu</button>
+        <button id="btn-export-progress" class="btn btn-outline" title="Sao lưu tiến độ học tập ra file JSON">💾 Sao lưu</button>
+        <label class="btn btn-outline" title="Khôi phục tiến độ từ file JSON">
+          📂 Khôi phục
+          <input type="file" id="input-import-progress" accept=".json" hidden />
+        </label>
+      </div>
+    </header>
+
+    <div class="workspace">
+      <!-- Sidebar: 72-Week Roadmap -->
+      <aside id="sidebar" class="sidebar no-print">
+        <div class="sidebar-summary" id="sidebar-summary">
+          <div class="summary-stat">
+            <span class="stat-label">Tiến độ toàn khóa</span>
+            <span class="stat-value" id="overall-progress-text">0 / 72 tuần</span>
+          </div>
+          <div class="progress-bar"><div class="progress-fill" id="overall-progress-fill" style="width: 0%"></div></div>
+        </div>
+        <div class="stage-filter">
+          <select id="stage-select">
+            <option value="all">Tất cả 4 Giai đoạn (72 tuần)</option>
+            <option value="1">GĐ 1: Nền tảng KHTN 6-7 (T1–18)</option>
+            <option value="2">GĐ 2: Mol &amp; Vô cơ KHTN 8 (T19–36)</option>
+            <option value="3">GĐ 3: Vô cơ 9 &amp; Hữu cơ (T37–54)</option>
+            <option value="4">GĐ 4: Chuyên đề HSG &amp; Luyện đề (T55–72)</option>
+          </select>
+        </div>
+        <div id="week-list" class="week-list"></div>
+      </aside>
+
+      <!-- Main Content -->
+      <main id="main-content" class="main-content">
+        <!-- Welcome / Week Header -->
+        <div id="week-header" class="week-header no-print"></div>
+
+        <!-- Tabs -->
+        <nav id="week-tabs" class="week-tabs no-print">
+          <button class="tab-btn active" data-tab="lecture">📖 Bài giảng tự học</button>
+          <button class="tab-btn" data-tab="exercises">✍️ Bài tập (20 câu) &amp; Chấm điểm</button>
+          <button class="tab-btn" data-tab="lesson-plan">📋 Giáo án &amp; In phiếu A4</button>
+          <button class="tab-btn" data-tab="roadmap">🗺️ Đề cương 72 tuần</button>
+        </nav>
+
+        <!-- Dynamic Tab Body (screen view) -->
+        <section id="tab-body" class="tab-body no-print"></section>
+
+        <!-- Print-Only Container (populated when user clicks Print A4) -->
+        <section id="print-area" class="print-only"></section>
+      </main>
+    </div>
+  </div>
+
+  <!-- Reference Modal (Periodic Table & Solubility / Valence) -->
+  <div id="ref-modal" class="modal no-print hidden">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>🧪 Bảng tra cứu nhanh (Offline)</h3>
+        <button id="btn-close-modal" class="icon-btn">✕</button>
+      </div>
+      <div class="modal-body" id="ref-modal-body"></div>
+    </div>
+  </div>
+
+  <script src="./data/curriculum.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
