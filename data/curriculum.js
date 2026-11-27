@@ -40,15 +40,15 @@ window.CURRICULUM = {
         { week: 25, title: "Hiệu suất phản ứng (H%) & Bài toán chuỗi phản ứng", grade: "KHTN 8+", status: "ready" },
         { week: 26, title: "Độ tan (S) & Dung dịch bão hòa – Bài toán kết tinh cơ bản", grade: "KHTN 8+", status: "ready" },
         { week: 27, title: "Kiểm tra giữa HK2 Năm 1 (Mol – PTHH – Độ tan)", grade: "Kiểm tra", status: "ready" },
-        { week: 28, title: "Nồng độ phần trăm (C%) & Nồng độ mol (CM) – Quy đổi C% và CM", grade: "KHTN 8", status: "planned" },
-        { week: 29, title: "Bài toán pha trộn dung dịch & Quy tắc đường chéo (HSG 8)", grade: "KHTN 8+", status: "planned" },
-        { week: 30, title: "Tốc độ phản ứng & Chất xúc tác", grade: "KHTN 8", status: "planned" },
-        { week: 31, title: "Acid: Tính chất hóa học, phân loại & Thang pH", grade: "KHTN 8", status: "planned" },
-        { week: 32, title: "Base: Tính chất hóa học, kiềm & Phản ứng trung hòa", grade: "KHTN 8", status: "planned" },
-        { week: 33, title: "Oxide: Phân loại (Acidic, Basic, Amphoteric, Neutral) & Tính chất", grade: "KHTN 8", status: "planned" },
-        { week: 34, title: "Muối: Tính tan, Phản ứng trao đổi ion sơ lược & Phân bón hóa học", grade: "KHTN 8", status: "planned" },
-        { week: 35, title: "Tổng ôn Năm 1: Kết nối Vô cơ cơ bản (Oxide – Acid – Base – Salt)", grade: "Ôn tập", status: "planned" },
-        { week: 36, title: "Thi đánh giá năng lực hết Năm 1 (Chuẩn đề HSG Hóa 8)", grade: "Kiểm tra", status: "planned" }
+        { week: 28, title: "Nồng độ phần trăm (C%) & Nồng độ mol (CM) – Quy đổi C% và CM", grade: "KHTN 8", status: "ready" },
+        { week: 29, title: "Bài toán pha trộn dung dịch & Quy tắc đường chéo (HSG 8)", grade: "KHTN 8+", status: "ready" },
+        { week: 30, title: "Tốc độ phản ứng & Chất xúc tác", grade: "KHTN 8", status: "ready" },
+        { week: 31, title: "Acid: Tính chất hóa học, phân loại & Thang pH", grade: "KHTN 8", status: "ready" },
+        { week: 32, title: "Base: Tính chất hóa học, kiềm & Phản ứng trung hòa", grade: "KHTN 8", status: "ready" },
+        { week: 33, title: "Oxide: Phân loại (Acidic, Basic, Amphoteric, Neutral) & Tính chất", grade: "KHTN 8", status: "ready" },
+        { week: 34, title: "Muối: Tính tan, Phản ứng trao đổi ion sơ lược & Phân bón hóa học", grade: "KHTN 8", status: "ready" },
+        { week: 35, title: "Tổng ôn Năm 1: Kết nối Vô cơ cơ bản (Oxide – Acid – Base – Salt)", grade: "Ôn tập", status: "ready" },
+        { week: 36, title: "Thi đánh giá năng lực hết Năm 1 (Chuẩn đề HSG Hóa 8)", grade: "Kiểm tra", status: "ready" }
       ]
     },
     {
