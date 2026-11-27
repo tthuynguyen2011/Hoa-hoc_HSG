@@ -422,3 +422,100 @@ table.std-table th { background: var(--surface-2); font-weight: 700; }
   .sidebar { position: fixed; left: 0; top: 58px; bottom: 0; z-index: 25; box-shadow: 4px 0 20px rgba(0,0,0,0.12); }
   .main-content { padding: 14px; }
 }
+
+/* ===== PHÒNG THI HSG (EXAM ROOM) ===== */
+.exam-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 14px;
+  margin-top: 14px;
+}
+.exam-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 15px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.exam-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+  border-color: #c4b5fd;
+}
+.exam-card h4 { margin: 4px 0; font-size: 0.98rem; color: var(--text); }
+.exam-sticky-bar {
+  position: sticky;
+  top: 62px;
+  z-index: 20;
+  background: #1e1b4b;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: var(--radius);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 8px 24px rgba(30, 27, 75, 0.25);
+}
+.exam-timer {
+  font-size: 1.45rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  background: rgba(255,255,255,0.12);
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+.exam-timer.danger { background: #dc2626; animation: pulse 1s infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.72; } }
+.exam-violation-badge {
+  background: rgba(245, 158, 11, 0.2);
+  border: 1px solid #fbbf24;
+  color: #fde68a;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+.exam-lock-nosel {
+  user-select: none;
+  -webkit-user-select: none;
+}
+.exam-warning-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: rgba(127, 29, 29, 0.92);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.exam-warning-box {
+  background: #fff;
+  color: #1e293b;
+  max-width: 480px;
+  border-radius: 14px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+}
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filter-bar input, .filter-bar select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.88rem;
+  background: var(--surface);
+}

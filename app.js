@@ -129,6 +129,7 @@
     listEl.querySelectorAll(".week-item").forEach((el) => {
       el.addEventListener("click", () => {
         state.currentWeek = Number(el.dataset.week);
+        state.appMode = "study";
         renderApp();
       });
     });
@@ -616,6 +617,14 @@
   function renderApp() {
     updateOverallProgress();
     renderSidebar();
+    const hdr = document.getElementById("week-header");
+    const tabs = document.getElementById("week-tabs");
+    if (state.appMode === "exam" && window.renderExamRoom) {
+      window.renderExamRoom();
+      return;
+    }
+    if (hdr) hdr.style.display = "";
+    if (tabs) tabs.style.display = "";
     const meta = findWeekMeta(state.currentWeek);
     document.querySelectorAll(".tab-btn").forEach((b) => {
       b.classList.toggle("active", b.dataset.tab === state.currentTab);
@@ -692,6 +701,14 @@
 
   // Init events
   document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("btn-mode-study").addEventListener("click", () => {
+      state.appMode = "study";
+      renderApp();
+    });
+    document.getElementById("btn-mode-exam").addEventListener("click", () => {
+      state.appMode = "exam";
+      renderApp();
+    });
     document.getElementById("btn-toggle-sidebar").addEventListener("click", () => {
       document.getElementById("sidebar").classList.toggle("collapsed");
     });
