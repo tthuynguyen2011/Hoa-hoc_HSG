@@ -69,6 +69,21 @@ window.WEEK_DATA[1] = {
           <li><strong>Thể lỏng:</strong> Các hạt gần nhau nhưng trượt lên nhau được → Có thể tích xác định, không có hình dạng riêng (chảy được), khó nén.</li>
           <li><strong>Thể khí (hơi):</strong> Các hạt ở rất xa nhau, chuyển động hỗn loạn mọi hướng → Không có hình dạng và thể tích riêng, dễ nén.</li>
         </ul>
+        <div style="text-align:center;margin:10px 0;">
+          <svg viewBox="0 0 540 120" style="max-width:100%;height:auto;border:1px solid #e2e8f0;border-radius:10px;background:#f8fafc;">
+            <rect x="20" y="15" width="140" height="80" rx="8" fill="#eff6ff" stroke="#2563eb"/>
+            <g fill="#2563eb"><circle cx="65" cy="40" r="8"/><circle cx="85" cy="40" r="8"/><circle cx="105" cy="40" r="8"/><circle cx="65" cy="60" r="8"/><circle cx="85" cy="60" r="8"/><circle cx="105" cy="60" r="8"/><circle cx="65" cy="80" r="8"/><circle cx="85" cy="80" r="8"/><circle cx="105" cy="80" r="8"/></g>
+            <text x="90" y="110" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e40af">Thể Rắn (Xếp sát)</text>
+
+            <rect x="200" y="15" width="140" height="80" rx="8" fill="#f0fdf4" stroke="#16a34a"/>
+            <g fill="#16a34a"><circle cx="225" cy="75" r="8"/><circle cx="248" cy="70" r="8"/><circle cx="272" cy="78" r="8"/><circle cx="295" cy="68" r="8"/><circle cx="315" cy="77" r="8"/><circle cx="236" cy="52" r="8"/><circle cx="262" cy="48" r="8"/><circle cx="288" cy="54" r="8"/></g>
+            <text x="270" y="110" font-size="11" font-weight="bold" text-anchor="middle" fill="#15803d">Thể Lỏng (Trượt lên nhau)</text>
+
+            <rect x="380" y="15" width="140" height="80" rx="8" fill="#fef3c7" stroke="#d97706"/>
+            <g fill="#d97706"><circle cx="405" cy="34" r="7"/><circle cx="465" cy="28" r="7"/><circle cx="430" cy="65" r="7"/><circle cx="495" cy="55" r="7"/><circle cx="470" cy="82" r="7"/></g>
+            <text x="450" y="110" font-size="11" font-weight="bold" text-anchor="middle" fill="#92400e">Thể Khí (Cách xa, tự do)</text>
+          </svg>
+        </div>
         <div class="callout">
           <strong>Quy luật nhiệt lượng khi chuyển thể:</strong><br/>
           • <strong>Thu nhiệt:</strong> Nóng chảy (Rắn → Lỏng), Bay hơi / Sôi (Lỏng → Khí), Thăng hoa (Rắn → Khí).<br/>

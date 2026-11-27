@@ -44,6 +44,19 @@ window.WEEK_DATA[8] = {
           2. $\\text{STT Chu kỳ} = \\text{Số lớp electron}$<br/>
           3. $\\text{STT Nhóm A} = \\text{Số electron lớp ngoài cùng}$ (trừ He ở VIIIA)
         </div>
+        <div style="text-align:center;margin:10px 0;">
+          <svg viewBox="0 0 460 115" style="max-width:100%;height:auto;border:1px solid #e2e8f0;border-radius:10px;background:#f8fafc;">
+            <rect x="30" y="15" width="95" height="82" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+            <text x="42" y="34" font-size="11" font-weight="bold" fill="#dc2626">13</text>
+            <text x="77" y="56" font-size="22" font-weight="bold" text-anchor="middle" fill="#1e3a8a">Al</text>
+            <text x="77" y="74" font-size="10" text-anchor="middle" fill="#475569">Aluminium</text>
+            <text x="77" y="88" font-size="10" font-weight="bold" text-anchor="middle" fill="#15803d">26,98 amu</text>
+            <text x="150" y="34" font-size="11" fill="#dc2626">← Số hiệu nguyên tử (Z = 13)</text>
+            <text x="150" y="56" font-size="11" fill="#1e3a8a">← Ký hiệu &amp; Tên IUPAC</text>
+            <text x="150" y="78" font-size="11" fill="#15803d">← Khối lượng nguyên tử</text>
+            <text x="150" y="98" font-size="11" font-weight="bold" fill="#7c3aed">→ Phân bố 2/8/3: Chu kỳ 3, Nhóm IIIA</text>
+          </svg>
+        </div>
       `,
       checkpoint: {
         question: "Nguyên tố X có $Z = 13$ (phân bố $2 / 8 / 3$). Vị trí của X trong Bảng tuần hoàn là:",

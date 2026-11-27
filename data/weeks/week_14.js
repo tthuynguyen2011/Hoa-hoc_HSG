@@ -57,6 +57,14 @@ window.WEEK_DATA[14] = {
           <strong>Quy tắc hóa trị:</strong> Trong công thức hóa học $\\overset{a}{A}_x \\overset{b}{B}_y$ (với $a, b$ là hóa trị của A, B; $x, y$ là chỉ số):
           <p style="text-align:center;font-size:1.1rem;margin:6px 0;">$$x \\times a = y \\times b$$</p>
         </div>
+        <div style="text-align:center;margin:8px 0;">
+          <svg viewBox="0 0 420 80" style="max-width:100%;height:auto;border:1px solid #e2e8f0;border-radius:10px;background:#f8fafc;">
+            <text x="140" y="28" font-size="12" font-weight="bold" fill="#2563eb" text-anchor="middle">III</text>
+            <text x="180" y="28" font-size="12" font-weight="bold" fill="#dc2626" text-anchor="middle">II</text>
+            <text x="160" y="52" font-size="22" font-weight="bold" fill="#1e293b" text-anchor="middle">Fe₂O₃</text>
+            <text x="235" y="48" font-size="12" font-weight="bold" fill="#15803d">⇒  2 × III = 3 × II (= 6, ĐÚNG!)</text>
+          </svg>
+        </div>
         <p><strong>Ứng dụng 1 – Tính hóa trị:</strong> Tìm hóa trị của S trong $\\ce{SO3}$ (biết O hóa trị II):<br/>
         Gọi hóa trị của S là $a$. Theo quy tắc hóa trị: $1 \\times a = 3 \\times \\text{II} \\Rightarrow a = \\text{VI}$.</p>
         <p><strong>Ứng dụng 2 – Kiểm tra CTHH đúng hay sai:</strong> Công thức $\\ce{AlCl2}$ đúng hay sai (Al hóa trị III, Cl hóa trị I)?<br/>

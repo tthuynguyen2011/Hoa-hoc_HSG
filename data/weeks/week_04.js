@@ -41,6 +41,28 @@ window.WEEK_DATA[4] = {
             <tr><td><strong>4. Chưng cất</strong></td><td>Hai chất lỏng <strong>tan</strong> vào nhau</td><td>Khác nhau về <strong>nhiệt độ sôi</strong></td><td>Tách cồn ($78^\\circ\\text{C}$) khỏi nước ($100^\\circ\\text{C}$)</td></tr>
           </tbody>
         </table>
+        <div style="text-align:center;margin:10px 0;">
+          <svg viewBox="0 0 540 130" style="max-width:100%;height:auto;border:1px solid #e2e8f0;border-radius:10px;background:#f8fafc;">
+            <!-- Loc -->
+            <polygon points="45,22 125,22 92,65 78,65" fill="#e2e8f0" stroke="#475569" stroke-width="1.8"/>
+            <line x1="85" y1="65" x2="85" y2="82" stroke="#0284c7" stroke-width="3"/>
+            <rect x="60" y="84" width="50" height="24" rx="4" fill="#bae6fd" stroke="#0284c7"/>
+            <text x="85" y="122" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">1. Lọc (Cát + Nước)</text>
+
+            <!-- Chiet -->
+            <polygon points="225,20 295,20 270,68 250,68" fill="#fef08a" stroke="#ca8a04" stroke-width="1.8"/>
+            <rect x="249" y="45" width="22" height="22" fill="#93c5fd"/>
+            <circle cx="260" cy="76" r="5" fill="#475569"/>
+            <rect x="235" y="84" width="50" height="24" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+            <text x="260" y="122" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">2. Phễu chiết (Dầu + Nước)</text>
+
+            <!-- Chung cat -->
+            <circle cx="405" cy="75" r="24" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+            <path d="M 405 51 L 405 30 L 475 58" fill="none" stroke="#475569" stroke-width="4"/>
+            <rect x="465" y="65" width="40" height="35" rx="4" fill="#dcfce7" stroke="#16a34a"/>
+            <text x="445" y="122" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">3. Chưng cất (Khác T°sôi)</text>
+          </svg>
+        </div>
       `,
       checkpoint: {
         question: "Để tách riêng hỗn hợp gồm rượu (ethanol, sôi ở $78^\\circ\\text{C}$) và nước (sôi ở $100^\\circ\\text{C}$), ta dùng phương pháp nào?",

@@ -623,6 +623,14 @@
       window.renderExamRoom();
       return;
     }
+    if (state.appMode === "pt" && window.renderPeriodicTableView) {
+      window.renderPeriodicTableView();
+      return;
+    }
+    if (state.appMode === "rxn" && window.renderReactionsLabView) {
+      window.renderReactionsLabView();
+      return;
+    }
     if (hdr) hdr.style.display = "";
     if (tabs) tabs.style.display = "";
     const meta = findWeekMeta(state.currentWeek);
@@ -707,6 +715,14 @@
     });
     document.getElementById("btn-mode-exam").addEventListener("click", () => {
       state.appMode = "exam";
+      renderApp();
+    });
+    document.getElementById("btn-mode-pt").addEventListener("click", () => {
+      state.appMode = "pt";
+      renderApp();
+    });
+    document.getElementById("btn-mode-rxn").addEventListener("click", () => {
+      state.appMode = "rxn";
       renderApp();
     });
     document.getElementById("btn-toggle-sidebar").addEventListener("click", () => {

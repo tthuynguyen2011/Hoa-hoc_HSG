@@ -56,6 +56,26 @@ window.WEEK_DATA[3] = {
             <tr><td><strong>Nhũ tương</strong></td><td>Giọt chất lỏng <strong>không tan</strong> lơ lửng trong chất lỏng khác</td><td>Không đồng nhất (dễ tách lớp)</td><td>Dầu ăn + nước, sữa tươi, sốt mayonnaise</td></tr>
           </tbody>
         </table>
+        <div style="text-align:center;margin:10px 0;">
+          <svg viewBox="0 0 540 125" style="max-width:100%;height:auto;border:1px solid #e2e8f0;border-radius:10px;background:#f8fafc;">
+            <!-- Dung dich -->
+            <rect x="35" y="18" width="110" height="75" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+            <text x="90" y="58" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e40af">Trong suốt, đồng nhất</text>
+            <text x="90" y="112" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e40af">Dung dịch (Muối + Nước)</text>
+
+            <!-- Huyen phu -->
+            <rect x="215" y="18" width="110" height="75" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+            <g fill="#92400e"><circle cx="240" cy="78" r="4"/><circle cx="258" cy="83" r="5"/><circle cx="275" cy="75" r="4"/><circle cx="295" cy="82" r="5"/><circle cx="265" cy="52" r="3"/><circle cx="285" cy="44" r="3"/></g>
+            <text x="270" y="112" font-size="11" font-weight="bold" text-anchor="middle" fill="#92400e">Huyền phù (Hạt rắn lắng)</text>
+
+            <!-- Nhu tuong -->
+            <rect x="395" y="18" width="110" height="75" rx="6" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+            <rect x="397" y="20" width="106" height="24" fill="#fde047"/>
+            <text x="450" y="36" font-size="10" font-weight="bold" text-anchor="middle" fill="#854d0e">Dầu (nhẹ, nổi)</text>
+            <text x="450" y="68" font-size="10" font-weight="bold" text-anchor="middle" fill="#0369a1">Nước (dưới)</text>
+            <text x="450" y="112" font-size="11" font-weight="bold" text-anchor="middle" fill="#0369a1">Nhũ tương (Tách lớp)</text>
+          </svg>
+        </div>
         <div class="callout">
           <strong>3 cách làm chất rắn tan nhanh hơn trong nước:</strong> (1) Khuấy đều, (2) Đun nóng (tăng nhiệt độ), (3) Nghiền nhỏ chất rắn (tăng diện tích tiếp xúc).
         </div>

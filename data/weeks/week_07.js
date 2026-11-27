@@ -45,6 +45,27 @@ window.WEEK_DATA[7] = {
           • Aluminium ($Z = 13$): $2 / 8 / 3$ (3 lớp, 3e lớp ngoài cùng)<br/>
           • Calcium ($Z = 20$): $2 / 8 / 8 / 2$ (4 lớp, 2e lớp ngoài cùng)
         </div>
+        <div style="text-align:center;margin:10px 0;">
+          <svg viewBox="0 0 460 140" style="max-width:100%;height:auto;border:1px solid #e2e8f0;border-radius:10px;background:#f8fafc;">
+            <!-- Na 2/8/1 -->
+            <circle cx="115" cy="65" r="48" fill="none" stroke="#94a3b8"/>
+            <circle cx="115" cy="65" r="34" fill="none" stroke="#64748b"/>
+            <circle cx="115" cy="65" r="20" fill="none" stroke="#64748b"/>
+            <circle cx="115" cy="65" r="11" fill="#2563eb"/><text x="115" y="69" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">+11</text>
+            <circle cx="163" cy="65" r="4" fill="#dc2626"/>
+            <text x="115" y="130" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e40af">Na (2 / 8 / 1) – 1e ngoài cùng</text>
+            <!-- Cl 2/8/7 -->
+            <circle cx="345" cy="65" r="48" fill="none" stroke="#94a3b8"/>
+            <circle cx="345" cy="65" r="34" fill="none" stroke="#64748b"/>
+            <circle cx="345" cy="65" r="20" fill="none" stroke="#64748b"/>
+            <circle cx="345" cy="65" r="11" fill="#16a34a"/><text x="345" y="69" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">+17</text>
+            <circle cx="393" cy="65" r="3.5" fill="#dc2626"/><circle cx="297" cy="65" r="3.5" fill="#dc2626"/>
+            <circle cx="345" cy="17" r="3.5" fill="#dc2626"/><circle cx="345" cy="113" r="3.5" fill="#dc2626"/>
+            <circle cx="379" cy="31" r="3.5" fill="#dc2626"/><circle cx="311" cy="99" r="3.5" fill="#dc2626"/>
+            <circle cx="379" cy="99" r="3.5" fill="#dc2626"/>
+            <text x="345" y="130" font-size="11" font-weight="bold" text-anchor="middle" fill="#15803d">Cl (2 / 8 / 7) – 7e ngoài cùng</text>
+          </svg>
+        </div>
       `,
       checkpoint: {
         question: "Nguyên tử Potassium (K) có $Z = 19$. Cách phân bố electron vào các lớp của K là:",

@@ -47,6 +47,15 @@ window.WEEK_DATA[16] = {
       content: `
         <p>Ta lập tỉ lệ số nguyên tử theo công thức:</p>
         <p style="text-align:center;">$$x : y : z = \\frac{\\%A}{M_A} : \\frac{\\%B}{M_B} : \\frac{\\%C}{M_C}$$</p>
+        <div style="text-align:center;margin:8px 0;">
+          <svg viewBox="0 0 500 72" style="max-width:100%;height:auto;border:1px solid #e2e8f0;border-radius:10px;background:#f8fafc;">
+            <rect x="12" y="16" width="125" height="40" rx="6" fill="#eff6ff" stroke="#2563eb"/><text x="74" y="40" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e40af">1. Chia % cho NTK</text>
+            <text x="152" y="41" font-size="16" font-weight="bold" fill="#475569">→</text>
+            <rect x="170" y="16" width="145" height="40" rx="6" fill="#fef3c7" stroke="#d97706"/><text x="242" y="40" font-size="11" font-weight="bold" text-anchor="middle" fill="#92400e">2. Chia cho số nhỏ nhất</text>
+            <text x="330" y="41" font-size="16" font-weight="bold" fill="#475569">→</text>
+            <rect x="348" y="16" width="140" height="40" rx="6" fill="#dcfce7" stroke="#16a34a"/><text x="418" y="40" font-size="11" font-weight="bold" text-anchor="middle" fill="#15803d">3. Nhân về số nguyên</text>
+          </svg>
+        </div>
         <div class="callout warn">
           <strong>Mẹo xử lý số thập phân:</strong> Chia cả dãy tỉ lệ cho số nhỏ nhất. Nếu xuất hiện $1,5$ thì nhân tất cả với $2$; nếu xuất hiện $1,33$ hoặc $1,67$ thì nhân tất cả với $3$!
         </div>

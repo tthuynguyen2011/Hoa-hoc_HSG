@@ -59,6 +59,28 @@ window.WEEK_DATA[6] = {
       title: "Đồng vị & Khối lượng nguyên tử trung bình (amu)",
       content: `
         <p><strong>Đồng vị</strong> là các nguyên tử của cùng một nguyên tố hóa học (cùng số $p$), nhưng <strong>khác nhau về số neutron ($n$)</strong> nên có số khối ($A = p + n$) khác nhau.</p>
+        <div style="text-align:center;margin:10px 0;">
+          <svg viewBox="0 0 500 115" style="max-width:100%;height:auto;border:1px solid #e2e8f0;border-radius:10px;background:#f8fafc;">
+            <!-- H-1 -->
+            <circle cx="85" cy="48" r="28" fill="none" stroke="#94a3b8" stroke-dasharray="3 2"/>
+            <circle cx="85" cy="48" r="8" fill="#ef4444"/><text x="85" y="51" fill="#fff" font-size="8" font-weight="bold" text-anchor="middle">p</text>
+            <circle cx="113" cy="48" r="4" fill="#2563eb"/>
+            <text x="85" y="96" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">¹H (1p, 0n)</text>
+            <!-- H-2 -->
+            <circle cx="250" cy="48" r="28" fill="none" stroke="#94a3b8" stroke-dasharray="3 2"/>
+            <circle cx="244" cy="48" r="8" fill="#ef4444"/><text x="244" y="51" fill="#fff" font-size="8" font-weight="bold" text-anchor="middle">p</text>
+            <circle cx="257" cy="48" r="8" fill="#64748b"/><text x="257" y="51" fill="#fff" font-size="8" font-weight="bold" text-anchor="middle">n</text>
+            <circle cx="278" cy="48" r="4" fill="#2563eb"/>
+            <text x="250" y="96" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">²H (1p, 1n)</text>
+            <!-- H-3 -->
+            <circle cx="415" cy="48" r="28" fill="none" stroke="#94a3b8" stroke-dasharray="3 2"/>
+            <circle cx="409" cy="44" r="7" fill="#ef4444"/><text x="409" y="47" fill="#fff" font-size="8" font-weight="bold" text-anchor="middle">p</text>
+            <circle cx="421" cy="44" r="7" fill="#64748b"/><text x="421" y="47" fill="#fff" font-size="8" font-weight="bold" text-anchor="middle">n</text>
+            <circle cx="415" cy="56" r="7" fill="#64748b"/><text x="415" y="59" fill="#fff" font-size="8" font-weight="bold" text-anchor="middle">n</text>
+            <circle cx="443" cy="48" r="4" fill="#2563eb"/>
+            <text x="415" y="96" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">³H (1p, 2n)</text>
+          </svg>
+        </div>
         <p>Công thức tính <strong>khối lượng nguyên tử trung bình</strong> của nguyên tố có 2 đồng vị $A_1$ (chiếm $x\\%$) và $A_2$ (chiếm $(100-x)\\%$):</p>
         <p style="text-align:center;">$$\\overline{M} = \\frac{A_1 \\cdot x + A_2 \\cdot (100 - x)}{100}$$</p>
       `,

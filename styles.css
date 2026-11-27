@@ -519,3 +519,73 @@ table.std-table th { background: var(--surface-2); font-weight: 700; }
   font-size: 0.88rem;
   background: var(--surface);
 }
+
+/* ===== BẢNG TUẦN HOÀN 3D ===== */
+.pt-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 0.78rem;
+}
+.pt-leg-item { display: inline-flex; align-items: center; gap: 5px; }
+.pt-dot { display: inline-block; width: 12px; height: 12px; border-radius: 3px; border: 1px solid rgba(0,0,0,0.15); }
+.pt-layout {
+  display: grid;
+  grid-template-columns: 1fr 315px;
+  gap: 14px;
+  align-items: start;
+}
+.pt-table-wrap { overflow-x: auto; padding: 12px; }
+.pt-grid {
+  display: grid;
+  grid-template-columns: repeat(18, minmax(36px, 1fr));
+  gap: 3px;
+  min-width: 680px;
+}
+.pt-sub-label { margin: 12px 0 6px; font-size: 0.78rem; font-weight: 700; color: #64748b; }
+.pt-sub-grid {
+  display: grid;
+  grid-template-columns: repeat(15, minmax(36px, 1fr));
+  gap: 3px;
+  min-width: 580px;
+}
+.pt-cell {
+  border-radius: 5px;
+  padding: 3px 2px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.pt-cell:hover { transform: scale(1.08); z-index: 5; box-shadow: 0 3px 10px rgba(0,0,0,0.18); }
+.pt-cell.selected { outline: 2.5px solid #1d4ed8; box-shadow: 0 0 0 3px rgba(37,99,235,0.25); z-index: 6; }
+.pt-z { font-size: 0.58rem; line-height: 1; opacity: 0.75; }
+.pt-sym { font-size: 0.85rem; font-weight: 800; line-height: 1.15; }
+.pt-name { font-size: 0.5rem; line-height: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pt-placeholder {
+  border-radius: 5px;
+  font-size: 0.62rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px dashed rgba(0,0,0,0.25);
+}
+.pt-alkali { background: #fee2e2; color: #991b1b; }
+.pt-alkaline { background: #ffedd5; color: #9a3412; }
+.pt-transition { background: #dbeafe; color: #1e40af; }
+.pt-post { background: #cffafe; color: #155e75; }
+.pt-metalloid { background: #d1fae5; color: #065f46; }
+.pt-nonmetal { background: #fef9c3; color: #854d0e; }
+.pt-halogen { background: #fce7f3; color: #9d174d; }
+.pt-noble { background: #ede9fe; color: #5b21b6; }
+.pt-lanthanide { background: #e0e7ff; color: #3730a3; }
+.pt-actinide { background: #f3e8ff; color: #6b21a8; }
+@media (max-width: 1050px) {
+  .pt-layout { grid-template-columns: 1fr; }
+}

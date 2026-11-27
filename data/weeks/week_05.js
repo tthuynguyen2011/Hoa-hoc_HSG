@@ -37,6 +37,21 @@ window.WEEK_DATA[5] = {
           <li><strong>Hạt nhân</strong> (ở tâm, mang điện tích dương): chứa <strong>proton ($p$)</strong> và <strong>neutron ($n$)</strong> (riêng nguyên tử Hydrogen thường chỉ có 1 proton, không có neutron).</li>
           <li><strong>Lớp vỏ</strong> (mang điện tích âm): chứa các <strong>electron ($e$)</strong> chuyển động rất nhanh xung quanh hạt nhân.</li>
         </ul>
+        <div style="text-align:center;margin:10px 0;">
+          <svg viewBox="0 0 420 135" style="max-width:100%;height:auto;border:1px solid #e2e8f0;border-radius:10px;background:#0f172a;">
+            <circle cx="150" cy="68" r="52" fill="none" stroke="#64748b" stroke-dasharray="4 3"/>
+            <circle cx="150" cy="68" r="32" fill="none" stroke="#94a3b8"/>
+            <circle cx="145" cy="64" r="7" fill="#ef4444"/><circle cx="155" cy="64" r="7" fill="#94a3b8"/>
+            <circle cx="145" cy="73" r="7" fill="#94a3b8"/><circle cx="155" cy="73" r="7" fill="#ef4444"/>
+            <circle cx="150" cy="36" r="4.5" fill="#38bdf8"/><circle cx="150" cy="100" r="4.5" fill="#38bdf8"/>
+            <circle cx="98" cy="68" r="4.5" fill="#38bdf8"/><circle cx="202" cy="68" r="4.5" fill="#38bdf8"/>
+            <circle cx="114" cy="32" r="4.5" fill="#38bdf8"/><circle cx="186" cy="104" r="4.5" fill="#38bdf8"/>
+            <text x="245" y="42" fill="#fca5a5" font-size="11" font-weight="bold">● Proton (+1, ~1 amu)</text>
+            <text x="245" y="68" fill="#cbd5e1" font-size="11" font-weight="bold">● Neutron (0, ~1 amu)</text>
+            <text x="245" y="94" fill="#7dd3fc" font-size="11" font-weight="bold">● Electron (-1, rất nhẹ)</text>
+            <text x="150" y="130" fill="#e2e8f0" font-size="10" text-anchor="middle">Mô hình nguyên tử Carbon (6p, 6n, 6e)</text>
+          </svg>
+        </div>
         <table class="std-table">
           <thead><tr><th>Loại hạt</th><th>Ký hiệu</th><th>Điện tích tương đối</th><th>Khối lượng (amu)</th></tr></thead>
           <tbody>

@@ -43,6 +43,23 @@ window.WEEK_DATA[2] = {
             </ul>
           </li>
         </ul>
+        <div style="text-align:center;margin:10px 0;">
+          <svg viewBox="0 0 500 130" style="max-width:100%;height:auto;border:1px solid #e2e8f0;border-radius:10px;background:#f8fafc;">
+            <!-- Bar chart 100% air -->
+            <rect x="25" y="25" width="351" height="32" fill="#3b82f6"/>
+            <rect x="376" y="25" width="94.5" height="32" fill="#ef4444"/>
+            <rect x="470.5" y="25" width="4.5" height="32" fill="#10b981"/>
+            <text x="200" y="46" fill="#fff" font-size="12" font-weight="bold" text-anchor="middle">78% Nitrogen (N₂)</text>
+            <text x="423" y="46" fill="#fff" font-size="11" font-weight="bold" text-anchor="middle">21% O₂</text>
+            <text x="468" y="18" fill="#047857" font-size="10" font-weight="bold" text-anchor="end">1% Khí khác (CO₂, Ar...)</text>
+            <!-- Tam giac chay -->
+            <polygon points="250,70 190,118 310,118" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+            <text x="250" y="106" font-size="11" font-weight="bold" text-anchor="middle" fill="#b45309">TAM GIÁC CHÁY</text>
+            <text x="250" y="67" font-size="10" font-weight="bold" text-anchor="middle" fill="#dc2626">Nhiệt độ cháy</text>
+            <text x="180" y="120" font-size="10" font-weight="bold" text-anchor="end" fill="#1e40af">Chất cháy</text>
+            <text x="320" y="120" font-size="10" font-weight="bold" text-anchor="start" fill="#15803d">Oxygen (O₂)</text>
+          </svg>
+        </div>
       `,
       checkpoint: {
         question: "Trong $200\\text{ L}$ không khí sạch, thể tích khí Oxygen chiếm khoảng bao nhiêu lít?",
