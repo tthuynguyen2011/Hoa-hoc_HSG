@@ -62,7 +62,7 @@ window.WEEK_DATA[2] = {
         </ol>
         <div class="callout warn">
           <strong>Nguyên tắc dập tắt đám cháy:</strong> Chỉ cần <strong>loại bỏ ít nhất 1 trong 3 yếu tố</strong> trên.<br/>
-          • <strong>Đám cháy xăng, dầu:</strong> KHÔNG dùng nước (xăng dầu nhẹ hơn nước, nổi lên trên và cháy lan). Phải dùng cát, chăn ẩm hoặc bình chữa cháy bọt/$\ce{CO2}$.<br/>
+          • <strong>Đám cháy xăng, dầu:</strong> KHÔNG dùng nước (xăng dầu nhẹ hơn nước, nổi lên trên và cháy lan). Phải dùng cát, chăn ẩm hoặc bình chữa cháy bọt/$\\ce{CO2}$.<br/>
           • <strong>Đám cháy điện:</strong> Ngắt cầu dao điện trước, dùng bình $\\ce{CO2}$ hoặc bột khô (không dùng nước vì nước dẫn điện).
         </div>
       `,
@@ -85,7 +85,7 @@ window.WEEK_DATA[2] = {
       answer: 1, solution: "Nhiên liệu là những chất cháy được và khi cháy tỏa nhiều nhiệt (than đá, xăng, gas, củi...)." },
     { id: "w2_q4", num: 4, tier: "basic", type: "mcq", points: 1,
       prompt: "Để dập tắt đám cháy do xăng dầu gây ra, ta KHÔNG nên dùng cách nào?",
-      options: ["A. Phủ cát lên đám cháy", "B. Trùm chăn ướt lên đám cháy", "C. Phun nước trực tiếp vào đám cháy", "D. Dùng bình chữa cháy bọt/$\ce{CO2}$"],
+      options: ["A. Phủ cát lên đám cháy", "B. Trùm chăn ướt lên đám cháy", "C. Phun nước trực tiếp vào đám cháy", "D. Dùng bình chữa cháy bọt/$\\ce{CO2}$"],
       answer: 2, solution: "Xăng dầu nhẹ hơn nước và không tan trong nước, phun nước sẽ làm xăng dầu nổi lên và cháy lan rộng." },
     { id: "w2_q5", num: 5, tier: "basic", type: "mcq", points: 1,
       prompt: "Bình khí nén dùng cho thợ lặn hoặc bệnh nhân khó thở chứa chủ yếu khí nào?",

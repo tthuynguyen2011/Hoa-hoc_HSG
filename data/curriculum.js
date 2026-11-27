@@ -15,15 +15,15 @@ window.CURRICULUM = {
         { week: 7, title: "Lớp electron & Cấu hình đơn giản (20 nguyên tố đầu)", grade: "KHTN 7", status: "ready" },
         { week: 8, title: "Sơ lược Bảng tuần hoàn: Ô, Chu kỳ, Nhóm", grade: "KHTN 7", status: "ready" },
         { week: 9, title: "Ôn tập & Kiểm tra định kỳ Giai đoạn 1A (Chuẩn CV 7991 + HSG)", grade: "Kiểm tra", status: "ready" },
-        { week: 10, title: "Kim loại – Phi kim – Khí hiếm trong Bảng tuần hoàn", grade: "KHTN 7", status: "planned" },
-        { week: 11, title: "Phân tử, Đơn chất & Hợp chất – Phân tử khối", grade: "KHTN 7", status: "planned" },
-        { week: 12, title: "Liên kết ion & Tinh thể ion", grade: "KHTN 7", status: "planned" },
-        { week: 13, title: "Liên kết cộng hóa trị & So sánh tính chất vật lý", grade: "KHTN 7", status: "planned" },
-        { week: 14, title: "Hóa trị & Quy tắc hóa trị", grade: "KHTN 7", status: "planned" },
-        { week: 15, title: "Lập Công thức hóa học (CTHH) & Tính % khối lượng nguyên tố", grade: "KHTN 7", status: "planned" },
-        { week: 16, title: "Bài toán tìm CTHH từ % khối lượng & Phân tử khối (Mức HSG)", grade: "KHTN 7+", status: "planned" },
-        { week: 17, title: "Tổng ôn HK1 Năm 1: Nguyên tử – Bảng tuần hoàn – CTHH", grade: "Ôn tập", status: "planned" },
-        { week: 18, title: "Kiểm tra cuối HK1 Năm 1 (Chuẩn CV 7991 + 5 bài HSG)", grade: "Kiểm tra", status: "planned" }
+        { week: 10, title: "Kim loại – Phi kim – Khí hiếm trong Bảng tuần hoàn", grade: "KHTN 7", status: "ready" },
+        { week: 11, title: "Phân tử, Đơn chất & Hợp chất – Phân tử khối", grade: "KHTN 7", status: "ready" },
+        { week: 12, title: "Liên kết ion & Tinh thể ion", grade: "KHTN 7", status: "ready" },
+        { week: 13, title: "Liên kết cộng hóa trị & So sánh tính chất vật lý", grade: "KHTN 7", status: "ready" },
+        { week: 14, title: "Hóa trị & Quy tắc hóa trị", grade: "KHTN 7", status: "ready" },
+        { week: 15, title: "Lập Công thức hóa học (CTHH) & Tính % khối lượng nguyên tố", grade: "KHTN 7", status: "ready" },
+        { week: 16, title: "Bài toán tìm CTHH từ % khối lượng & Phân tử khối (Mức HSG)", grade: "KHTN 7+", status: "ready" },
+        { week: 17, title: "Tổng ôn HK1 Năm 1: Nguyên tử – Bảng tuần hoàn – CTHH", grade: "Ôn tập", status: "ready" },
+        { week: 18, title: "Kiểm tra cuối HK1 Năm 1 (Chuẩn CV 7991 + 5 bài HSG)", grade: "Kiểm tra", status: "ready" }
       ]
     },
     {
