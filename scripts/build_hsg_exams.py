@@ -227,11 +227,61 @@ def collect_exam_sources():
             sources.append((os.path.join(folder, f), f, category, duration))
 
     add_folder("HSG HOÁ 8", "HSG Hóa 8", 120)
-    add_folder("Đề thi thử HSG 9 cô Yến AMS 25-26", "HSG 9 Cô Yến AMS (25-26)", 150)
+    add_folder("Đề thi thử HSG 9 cô Yến AMS 25-26", "Đề thi thử HSG 9 (25-26)", 150)
     add_folder("HSG 9 [25-26]", "HSG KHTN/Hóa 9 (25-26)", 150, limit=18)
     add_folder("HSG9-2526", "HSG 9 Tỉnh/TP (25-26)", 150, limit=15)
     add_folder("[ FILE TRỌN BỘ 60 ĐỀ ] VÀO 10 CHUYÊN HÓA_ocDDVdQoo0", "Chuyên Hóa vào 10 (25-26)", 150, limit=25)
     return sources
+
+
+PROVINCES = [
+    "TP. Hồ Chí Minh", "TP Hà Nội", "Hà Nội", "An Giang", "Bạc Liêu", "Bắc Giang", "Bắc Ninh",
+    "Cà Mau", "Cần Thơ", "Đà Nẵng", "Điện Biên", "Gia Lai", "Hà Nam", "Hà Tĩnh", "Hải Phòng",
+    "Hòa Bình", "Hưng Yên", "Khánh Hòa", "Lai Châu", "Lâm Đồng", "Lào Cai", "Nghệ An",
+    "Ninh Bình", "Ninh Thuận", "Phú Thọ", "Quảng Ninh", "Quảng Trị", "Sơn La", "Thái Bình",
+    "Thanh Hóa", "Thừa Thiên Huế", "Huế", "Tuyên Quang", "Vĩnh Phúc", "HCM"
+]
+
+
+def format_clean_title(exam_id: int, raw_filename: str, category: str) -> str:
+    low = raw_filename.lower()
+    # Xác định năm thi
+    year = "2025-2026"
+    if "2023" in low or "23-24" in low:
+        year = "2023-2024"
+    elif "2024" in low or "24-25" in low:
+        year = "2024-2025"
+
+    # Xác định tỉnh/thành phố
+    province = ""
+    # Chuẩn hóa không dấu/có dấu phổ biến
+    alias_map = {
+        "ha noi": "Hà Nội", "hà nội": "Hà Nội",
+        "hcm": "TP. Hồ Chí Minh", "năng khiếu": "TP. Hồ Chí Minh",
+        "huế": "Huế", "hue": "Huế",
+        "lai chau": "Lai Châu", "lai châu": "Lai Châu",
+        "lam sơn": "Thanh Hóa", "phan bội châu": "Nghệ An",
+        "hùng vương": "Gia Lai", "hạ long": "Quảng Ninh",
+        "hoàng văn thụ": "Hòa Bình", "lê quý đôn": "Đà Nẵng",
+        "đại học vinh": "Nghệ An", "quốc học": "Huế",
+    }
+    for k, v in alias_map.items():
+        if k in low:
+            province = v
+            break
+    if not province:
+        for p in PROVINCES:
+            if p.lower() in low:
+                province = "TP. Hồ Chí Minh" if p == "HCM" else ("Hà Nội" if p == "TP Hà Nội" else p)
+                break
+
+    if category == "HSG Hóa 8":
+        return f"Đề số {exam_id:02d} – HSG Hóa 8"
+    if category == "Đề thi thử HSG 9 (25-26)":
+        return f"Đề số {exam_id:02d} – Năm {year} – Hà Nội (Thi thử)"
+    if province:
+        return f"Đề số {exam_id:02d} – Năm {year} – {province}"
+    return f"Đề số {exam_id:02d} – Năm {year}"
 
 
 def main():
@@ -246,9 +296,7 @@ def main():
             if len(parsed["questions"]) < 3:
                 continue
             exam_id += 1
-            title = os.path.splitext(filename)[0]
-            # Chuẩn hóa tên đề gọn đẹp
-            title = re.sub(r"^\d+[\.\s\-]*", "", title).strip()
+            title = format_clean_title(exam_id, filename, category)
             total_pts = round(sum(q["points"] for q in parsed["questions"]), 2)
 
             exam_obj = {

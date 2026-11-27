@@ -304,7 +304,7 @@
                   <span class="pill pill-hsg">${e.category}</span>
                   ${e.hasKey ? `<span class="week-badge badge-ready">Có Đáp án/HDC</span>` : `<span class="week-badge badge-plan">Đề tự luyện</span>`}
                 </div>
-                <h4>Đề #${e.id}: ${e.title}</h4>
+                <h4>${e.title}</h4>
                 <div style="font-size:0.82rem;color:#64748b;">
                   ⏱️ ${e.durationMinutes} phút • 📝 ${e.questionCount} câu (${e.mcqCount} TN, ${e.essayCount} TL) • Thang ${e.totalPoints}đ
                 </div>
@@ -349,7 +349,7 @@
     container.innerHTML = `
       <div class="card" style="max-width:680px;margin:20px auto;">
         <span class="pill pill-hsg">${ex.category}</span>
-        <h2 style="margin:8px 0;">Đề #${ex.id}: ${ex.title}</h2>
+        <h2 style="margin:8px 0;">${ex.title}</h2>
         <div class="callout warn">
           <strong>📜 NỘI QUY PHÒNG THI TRỰC TUYẾN:</strong>
           <ul style="margin:6px 0 0;">
@@ -380,7 +380,7 @@
       <div class="exam-sticky-bar">
         <div>
           <div style="font-size:0.78rem;opacity:0.85;">${ex.category} • Đang làm bài</div>
-          <div style="font-weight:700;">Đề #${ex.id}: ${ex.title}</div>
+          <div style="font-weight:700;">${ex.title}</div>
         </div>
         <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
           <span class="exam-violation-badge" id="exam-violation-display">⚠️ Vi phạm rời trang: ${examState.violations}/${MAX_VIOLATIONS}</span>
@@ -444,7 +444,7 @@
     container.innerHTML = `
       <div class="score-banner" style="background:linear-gradient(135deg,#4c1d95,#7e22ce);">
         <div>
-          <div style="font-size:0.86rem;opacity:0.9;">KẾT QUẢ BÀI THI • Đề #${ex.id}: ${ex.title}</div>
+          <div style="font-size:0.86rem;opacity:0.9;">KẾT QUẢ BÀI THI • ${ex.title}</div>
           <div class="score-big">${stats.totalScore} / ${ex.totalPoints} điểm</div>
           <div style="font-size:0.85rem;margin-top:4px;">
             Trắc nghiệm đúng: <strong>${stats.correctMcq}/${stats.totalMcq}</strong> •
