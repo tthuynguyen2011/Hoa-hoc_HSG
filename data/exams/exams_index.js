@@ -7,28 +7,28 @@ window.HSG_EXAMS_INDEX = [
     "questionCount": 6,
     "mcqCount": 0,
     "essayCount": 6,
-    "totalPoints": 20.0,
-    "hasKey": true
+    "totalPoints": 24.0,
+    "hasKey": false
   },
   {
     "id": 2,
     "title": "Đề số 02 – HSG Hóa 8",
     "category": "HSG Hóa 8",
     "durationMinutes": 120,
-    "questionCount": 6,
+    "questionCount": 8,
     "mcqCount": 0,
-    "essayCount": 6,
-    "totalPoints": 24.0,
-    "hasKey": false
+    "essayCount": 8,
+    "totalPoints": 10.0,
+    "hasKey": true
   },
   {
     "id": 3,
     "title": "Đề số 03 – HSG Hóa 8",
     "category": "HSG Hóa 8",
     "durationMinutes": 120,
-    "questionCount": 8,
+    "questionCount": 7,
     "mcqCount": 0,
-    "essayCount": 8,
+    "essayCount": 7,
     "totalPoints": 10.0,
     "hasKey": true
   },
@@ -40,7 +40,7 @@ window.HSG_EXAMS_INDEX = [
     "questionCount": 6,
     "mcqCount": 0,
     "essayCount": 6,
-    "totalPoints": 7.75,
+    "totalPoints": 10.0,
     "hasKey": true
   },
   {
@@ -48,20 +48,20 @@ window.HSG_EXAMS_INDEX = [
     "title": "Đề số 05 – HSG Hóa 8",
     "category": "HSG Hóa 8",
     "durationMinutes": 120,
-    "questionCount": 6,
+    "questionCount": 7,
     "mcqCount": 0,
-    "essayCount": 6,
-    "totalPoints": 10.0,
-    "hasKey": true
+    "essayCount": 7,
+    "totalPoints": 8.0,
+    "hasKey": false
   },
   {
     "id": 6,
     "title": "Đề số 06 – HSG Hóa 8",
     "category": "HSG Hóa 8",
     "durationMinutes": 120,
-    "questionCount": 6,
+    "questionCount": 5,
     "mcqCount": 0,
-    "essayCount": 6,
+    "essayCount": 5,
     "totalPoints": 6.0,
     "hasKey": false
   },
@@ -70,11 +70,11 @@ window.HSG_EXAMS_INDEX = [
     "title": "Đề số 07 – HSG Hóa 8",
     "category": "HSG Hóa 8",
     "durationMinutes": 120,
-    "questionCount": 11,
+    "questionCount": 6,
     "mcqCount": 0,
-    "essayCount": 11,
-    "totalPoints": 14.0,
-    "hasKey": false
+    "essayCount": 6,
+    "totalPoints": 16.5,
+    "hasKey": true
   },
   {
     "id": 8,
@@ -84,18 +84,18 @@ window.HSG_EXAMS_INDEX = [
     "questionCount": 6,
     "mcqCount": 0,
     "essayCount": 6,
-    "totalPoints": 16.5,
-    "hasKey": false
+    "totalPoints": 20.0,
+    "hasKey": true
   },
   {
     "id": 9,
     "title": "Đề số 09 – HSG Hóa 8",
     "category": "HSG Hóa 8",
     "durationMinutes": 120,
-    "questionCount": 6,
-    "mcqCount": 0,
+    "questionCount": 17,
+    "mcqCount": 11,
     "essayCount": 6,
-    "totalPoints": 20.0,
+    "totalPoints": 21.0,
     "hasKey": true
   },
   {
@@ -103,10 +103,10 @@ window.HSG_EXAMS_INDEX = [
     "title": "Đề số 10 – HSG Hóa 8",
     "category": "HSG Hóa 8",
     "durationMinutes": 120,
-    "questionCount": 17,
-    "mcqCount": 11,
+    "questionCount": 6,
+    "mcqCount": 0,
     "essayCount": 6,
-    "totalPoints": 21.0,
+    "totalPoints": 27.5,
     "hasKey": true
   },
   {
@@ -117,8 +117,8 @@ window.HSG_EXAMS_INDEX = [
     "questionCount": 6,
     "mcqCount": 0,
     "essayCount": 6,
-    "totalPoints": 22.0,
-    "hasKey": true
+    "totalPoints": 24.0,
+    "hasKey": false
   },
   {
     "id": 12,
@@ -128,34 +128,12 @@ window.HSG_EXAMS_INDEX = [
     "questionCount": 6,
     "mcqCount": 0,
     "essayCount": 6,
-    "totalPoints": 27.5,
-    "hasKey": false
+    "totalPoints": 24.25,
+    "hasKey": true
   },
   {
     "id": 13,
     "title": "Đề số 13 – HSG Hóa 8",
-    "category": "HSG Hóa 8",
-    "durationMinutes": 120,
-    "questionCount": 6,
-    "mcqCount": 0,
-    "essayCount": 6,
-    "totalPoints": 24.0,
-    "hasKey": false
-  },
-  {
-    "id": 14,
-    "title": "Đề số 14 – HSG Hóa 8",
-    "category": "HSG Hóa 8",
-    "durationMinutes": 120,
-    "questionCount": 6,
-    "mcqCount": 0,
-    "essayCount": 6,
-    "totalPoints": 24.25,
-    "hasKey": false
-  },
-  {
-    "id": 15,
-    "title": "Đề số 15 – HSG Hóa 8",
     "category": "HSG Hóa 8",
     "durationMinutes": 120,
     "questionCount": 36,
@@ -165,8 +143,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": true
   },
   {
-    "id": 16,
-    "title": "Đề số 16 – HSG Hóa 8",
+    "id": 14,
+    "title": "Đề số 14 – HSG Hóa 8",
     "category": "HSG Hóa 8",
     "durationMinutes": 120,
     "questionCount": 6,
@@ -176,8 +154,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 17,
-    "title": "Đề số 17 – Năm 2025-2026 – Hà Nội (Thi thử)",
+    "id": 15,
+    "title": "Đề số 15 – Năm 2025-2026 – Hà Nội (Thi thử)",
     "category": "Đề thi thử HSG 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 15,
@@ -187,8 +165,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 18,
-    "title": "Đề số 18 – Năm 2025-2026 – Hà Nội (Thi thử)",
+    "id": 16,
+    "title": "Đề số 16 – Năm 2025-2026 – Hà Nội (Thi thử)",
     "category": "Đề thi thử HSG 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 17,
@@ -198,8 +176,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 19,
-    "title": "Đề số 19 – Năm 2025-2026 – Hà Nội (Thi thử)",
+    "id": 17,
+    "title": "Đề số 17 – Năm 2025-2026 – Hà Nội (Thi thử)",
     "category": "Đề thi thử HSG 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 14,
@@ -209,8 +187,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 20,
-    "title": "Đề số 20 – Năm 2025-2026 – Hà Nội (Thi thử)",
+    "id": 18,
+    "title": "Đề số 18 – Năm 2025-2026 – Hà Nội (Thi thử)",
     "category": "Đề thi thử HSG 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 16,
@@ -220,8 +198,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 21,
-    "title": "Đề số 21 – Năm 2025-2026 – Hà Nội (Thi thử)",
+    "id": 19,
+    "title": "Đề số 19 – Năm 2025-2026 – Hà Nội (Thi thử)",
     "category": "Đề thi thử HSG 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 15,
@@ -231,8 +209,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 22,
-    "title": "Đề số 22 – Năm 2025-2026 – Hà Nội (Thi thử)",
+    "id": 20,
+    "title": "Đề số 20 – Năm 2025-2026 – Hà Nội (Thi thử)",
     "category": "Đề thi thử HSG 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 16,
@@ -242,8 +220,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 23,
-    "title": "Đề số 23 – Năm 2025-2026 – Hà Nội (Thi thử)",
+    "id": 21,
+    "title": "Đề số 21 – Năm 2025-2026 – Hà Nội (Thi thử)",
     "category": "Đề thi thử HSG 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 16,
@@ -253,8 +231,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 24,
-    "title": "Đề số 24 – Năm 2025-2026 – Hà Nội (Thi thử)",
+    "id": 22,
+    "title": "Đề số 22 – Năm 2025-2026 – Hà Nội (Thi thử)",
     "category": "Đề thi thử HSG 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 16,
@@ -264,8 +242,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 25,
-    "title": "Đề số 25 – Năm 2025-2026 – Hà Nội (Thi thử)",
+    "id": 23,
+    "title": "Đề số 23 – Năm 2025-2026 – Hà Nội (Thi thử)",
     "category": "Đề thi thử HSG 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 16,
@@ -275,8 +253,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 26,
-    "title": "Đề số 26 – Năm 2025-2026 – Hà Nội (Thi thử)",
+    "id": 24,
+    "title": "Đề số 24 – Năm 2025-2026 – Hà Nội (Thi thử)",
     "category": "Đề thi thử HSG 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 16,
@@ -286,8 +264,30 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
+    "id": 25,
+    "title": "Đề số 25 – Năm 2025-2026 – Ninh Bình",
+    "category": "HSG KHTN/Hóa 9 (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 8,
+    "mcqCount": 0,
+    "essayCount": 8,
+    "totalPoints": 20.0,
+    "hasKey": false
+  },
+  {
+    "id": 26,
+    "title": "Đề số 26 – Năm 2025-2026 – Nghệ An",
+    "category": "HSG KHTN/Hóa 9 (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 12,
+    "mcqCount": 11,
+    "essayCount": 1,
+    "totalPoints": 7.5,
+    "hasKey": false
+  },
+  {
     "id": 27,
-    "title": "Đề số 27 – Năm 2025-2026 – Ninh Bình",
+    "title": "Đề số 27 – Năm 2025-2026 – Điện Biên",
     "category": "HSG KHTN/Hóa 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 8,
@@ -298,29 +298,7 @@ window.HSG_EXAMS_INDEX = [
   },
   {
     "id": 28,
-    "title": "Đề số 28 – Năm 2025-2026 – Nghệ An",
-    "category": "HSG KHTN/Hóa 9 (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 29,
-    "mcqCount": 24,
-    "essayCount": 5,
-    "totalPoints": 26.0,
-    "hasKey": false
-  },
-  {
-    "id": 29,
-    "title": "Đề số 29 – Năm 2025-2026 – Điện Biên",
-    "category": "HSG KHTN/Hóa 9 (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 8,
-    "mcqCount": 0,
-    "essayCount": 8,
-    "totalPoints": 20.0,
-    "hasKey": false
-  },
-  {
-    "id": 30,
-    "title": "Đề số 30 – Năm 2025-2026 – Thanh Hóa",
+    "title": "Đề số 28 – Năm 2025-2026 – Thanh Hóa",
     "category": "HSG KHTN/Hóa 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 5,
@@ -330,8 +308,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 31,
-    "title": "Đề số 31 – Năm 2025-2026 – Hà Tĩnh",
+    "id": 29,
+    "title": "Đề số 29 – Năm 2025-2026 – Hà Tĩnh",
     "category": "HSG KHTN/Hóa 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 12,
@@ -341,8 +319,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 32,
-    "title": "Đề số 32 – Năm 2025-2026 – Bắc Ninh",
+    "id": 30,
+    "title": "Đề số 30 – Năm 2025-2026 – Bắc Ninh",
     "category": "HSG KHTN/Hóa 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 27,
@@ -352,8 +330,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 33,
-    "title": "Đề số 33 – Năm 2025-2026 – Quảng Ninh",
+    "id": 31,
+    "title": "Đề số 31 – Năm 2025-2026 – Quảng Ninh",
     "category": "HSG KHTN/Hóa 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 8,
@@ -363,19 +341,19 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 34,
-    "title": "Đề số 34 – Năm 2025-2026 – Hà Nội",
+    "id": 32,
+    "title": "Đề số 32 – Năm 2025-2026 – Hà Nội",
     "category": "HSG KHTN/Hóa 9 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 10,
-    "mcqCount": 0,
+    "questionCount": 18,
+    "mcqCount": 8,
     "essayCount": 10,
-    "totalPoints": 38.0,
+    "totalPoints": 43.5,
     "hasKey": false
   },
   {
-    "id": 35,
-    "title": "Đề số 35 – Năm 2025-2026 – Hưng Yên",
+    "id": 33,
+    "title": "Đề số 33 – Năm 2025-2026 – Hưng Yên",
     "category": "HSG KHTN/Hóa 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 5,
@@ -385,8 +363,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 36,
-    "title": "Đề số 36 – Năm 2025-2026 – Phú Thọ",
+    "id": 34,
+    "title": "Đề số 34 – Năm 2025-2026 – Phú Thọ",
     "category": "HSG KHTN/Hóa 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 31,
@@ -396,19 +374,19 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 37,
-    "title": "Đề số 37 – Năm 2025-2026 – Tuyên Quang",
+    "id": 35,
+    "title": "Đề số 35 – Năm 2025-2026 – Tuyên Quang",
     "category": "HSG KHTN/Hóa 9 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 4,
-    "mcqCount": 0,
+    "questionCount": 12,
+    "mcqCount": 8,
     "essayCount": 4,
-    "totalPoints": 11.0,
+    "totalPoints": 28.5,
     "hasKey": false
   },
   {
-    "id": 38,
-    "title": "Đề số 38 – Năm 2025-2026 – Cần Thơ",
+    "id": 36,
+    "title": "Đề số 36 – Năm 2025-2026 – Cần Thơ",
     "category": "HSG KHTN/Hóa 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 10,
@@ -418,8 +396,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 39,
-    "title": "Đề số 39 – Năm 2025-2026 – Quảng Trị",
+    "id": 37,
+    "title": "Đề số 37 – Năm 2025-2026 – Quảng Trị",
     "category": "HSG KHTN/Hóa 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 11,
@@ -429,8 +407,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 40,
-    "title": "Đề số 40 – Năm 2025-2026 – Ninh Bình",
+    "id": 38,
+    "title": "Đề số 38 – Năm 2025-2026 – Ninh Bình",
     "category": "HSG KHTN/Hóa 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 6,
@@ -440,14 +418,36 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": false
   },
   {
-    "id": 41,
-    "title": "Đề số 41 – Năm 2025-2026 – Lào Cai",
+    "id": 39,
+    "title": "Đề số 39 – Năm 2025-2026 – Lào Cai",
     "category": "HSG KHTN/Hóa 9 (25-26)",
     "durationMinutes": 150,
     "questionCount": 18,
     "mcqCount": 12,
     "essayCount": 6,
     "totalPoints": 42.5,
+    "hasKey": false
+  },
+  {
+    "id": 40,
+    "title": "Đề số 40 – Năm 2025-2026 – An Giang",
+    "category": "HSG 9 Tỉnh/TP (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 5,
+    "mcqCount": 0,
+    "essayCount": 5,
+    "totalPoints": 20.0,
+    "hasKey": false
+  },
+  {
+    "id": 41,
+    "title": "Đề số 41 – Năm 2025-2026 – An Giang",
+    "category": "HSG 9 Tỉnh/TP (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 5,
+    "mcqCount": 0,
+    "essayCount": 5,
+    "totalPoints": 20.0,
     "hasKey": false
   },
   {
@@ -459,44 +459,11 @@ window.HSG_EXAMS_INDEX = [
     "mcqCount": 0,
     "essayCount": 5,
     "totalPoints": 20.0,
-    "hasKey": false
-  },
-  {
-    "id": 43,
-    "title": "Đề số 43 – Năm 2025-2026 – An Giang",
-    "category": "HSG 9 Tỉnh/TP (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 5,
-    "mcqCount": 0,
-    "essayCount": 5,
-    "totalPoints": 20.0,
-    "hasKey": false
-  },
-  {
-    "id": 44,
-    "title": "Đề số 44 – Năm 2025-2026 – An Giang",
-    "category": "HSG 9 Tỉnh/TP (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 10,
-    "mcqCount": 0,
-    "essayCount": 10,
-    "totalPoints": 40.0,
-    "hasKey": false
-  },
-  {
-    "id": 45,
-    "title": "Đề số 45 – Năm 2025-2026 – Bắc Ninh",
-    "category": "HSG 9 Tỉnh/TP (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 34,
-    "mcqCount": 20,
-    "essayCount": 14,
-    "totalPoints": 57.5,
     "hasKey": true
   },
   {
-    "id": 46,
-    "title": "Đề số 46 – Năm 2025-2026 – Bắc Ninh",
+    "id": 43,
+    "title": "Đề số 43 – Năm 2025-2026 – Bắc Ninh",
     "category": "HSG 9 Tỉnh/TP (25-26)",
     "durationMinutes": 150,
     "questionCount": 27,
@@ -506,52 +473,63 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": true
   },
   {
-    "id": 47,
-    "title": "Đề số 47 – Năm 2025-2026 – Cà Mau",
+    "id": 44,
+    "title": "Đề số 44 – Năm 2025-2026 – Bắc Ninh",
+    "category": "HSG 9 Tỉnh/TP (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 27,
+    "mcqCount": 20,
+    "essayCount": 7,
+    "totalPoints": 41.5,
+    "hasKey": true
+  },
+  {
+    "id": 45,
+    "title": "Đề số 45 – Năm 2025-2026 – Cà Mau",
     "category": "HSG 9 Tỉnh/TP (25-26)",
     "durationMinutes": 150,
     "questionCount": 4,
     "mcqCount": 0,
     "essayCount": 4,
     "totalPoints": 20.0,
-    "hasKey": false
-  },
-  {
-    "id": 48,
-    "title": "Đề số 48 – Năm 2025-2026 – Cần Thơ",
-    "category": "HSG 9 Tỉnh/TP (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 14,
-    "mcqCount": 0,
-    "essayCount": 14,
-    "totalPoints": 30.5,
-    "hasKey": false
-  },
-  {
-    "id": 49,
-    "title": "Đề số 49 – Năm 2025-2026 – Gia Lai",
-    "category": "HSG 9 Tỉnh/TP (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 22,
-    "mcqCount": 0,
-    "essayCount": 22,
-    "totalPoints": 40.0,
-    "hasKey": false
-  },
-  {
-    "id": 50,
-    "title": "Đề số 50 – Năm 2025-2026 – Hà Nội",
-    "category": "HSG 9 Tỉnh/TP (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 19,
-    "mcqCount": 4,
-    "essayCount": 15,
-    "totalPoints": 50.0,
     "hasKey": true
   },
   {
-    "id": 51,
-    "title": "Đề số 51 – Năm 2025-2026 – Huế",
+    "id": 46,
+    "title": "Đề số 46 – Năm 2025-2026 – Cần Thơ",
+    "category": "HSG 9 Tỉnh/TP (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 8,
+    "mcqCount": 0,
+    "essayCount": 8,
+    "totalPoints": 16.5,
+    "hasKey": true
+  },
+  {
+    "id": 47,
+    "title": "Đề số 47 – Năm 2025-2026 – Gia Lai",
+    "category": "HSG 9 Tỉnh/TP (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 11,
+    "mcqCount": 0,
+    "essayCount": 11,
+    "totalPoints": 20.0,
+    "hasKey": true
+  },
+  {
+    "id": 48,
+    "title": "Đề số 48 – Năm 2025-2026 – Hà Nội",
+    "category": "HSG 9 Tỉnh/TP (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 18,
+    "mcqCount": 4,
+    "essayCount": 14,
+    "totalPoints": 48.0,
+    "hasKey": true
+  },
+  {
+    "id": 49,
+    "title": "Đề số 49 – Năm 2025-2026 – Huế",
     "category": "HSG 9 Tỉnh/TP (25-26)",
     "durationMinutes": 150,
     "questionCount": 7,
@@ -561,8 +539,8 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": true
   },
   {
-    "id": 52,
-    "title": "Đề số 52 – Năm 2025-2026 – Hà Tĩnh",
+    "id": 50,
+    "title": "Đề số 50 – Năm 2025-2026 – Hà Tĩnh",
     "category": "HSG 9 Tỉnh/TP (25-26)",
     "durationMinutes": 150,
     "questionCount": 22,
@@ -572,195 +550,195 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": true
   },
   {
-    "id": 53,
-    "title": "Đề số 53 – Năm 2025-2026 – Hưng Yên",
+    "id": 51,
+    "title": "Đề số 51 – Năm 2025-2026 – Hưng Yên",
     "category": "HSG 9 Tỉnh/TP (25-26)",
     "durationMinutes": 150,
-    "questionCount": 9,
+    "questionCount": 5,
     "mcqCount": 0,
-    "essayCount": 9,
-    "totalPoints": 36.0,
-    "hasKey": false
-  },
-  {
-    "id": 54,
-    "title": "Đề số 54 – Năm 2025-2026 – Hải Phòng",
-    "category": "HSG 9 Tỉnh/TP (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 20,
-    "mcqCount": 4,
-    "essayCount": 16,
-    "totalPoints": 34.0,
+    "essayCount": 5,
+    "totalPoints": 20.0,
     "hasKey": true
   },
   {
-    "id": 55,
-    "title": "Đề số 55 – Năm 2025-2026 – Huế",
+    "id": 52,
+    "title": "Đề số 52 – Năm 2025-2026 – Hải Phòng",
+    "category": "HSG 9 Tỉnh/TP (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 24,
+    "mcqCount": 6,
+    "essayCount": 18,
+    "totalPoints": 39.0,
+    "hasKey": true
+  },
+  {
+    "id": 53,
+    "title": "Đề số 53 – Năm 2025-2026 – Huế",
     "category": "HSG 9 Tỉnh/TP (25-26)",
     "durationMinutes": 150,
     "questionCount": 19,
     "mcqCount": 6,
     "essayCount": 13,
     "totalPoints": 47.0,
-    "hasKey": false
+    "hasKey": true
+  },
+  {
+    "id": 54,
+    "title": "Đề số 54 – Năm 2025-2026 – Lai Châu",
+    "category": "HSG 9 Tỉnh/TP (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 6,
+    "mcqCount": 0,
+    "essayCount": 6,
+    "totalPoints": 20.0,
+    "hasKey": true
+  },
+  {
+    "id": 55,
+    "title": "Đề số 55 – Năm 2025-2026 – Bạc Liêu",
+    "category": "Chuyên Hóa vào 10 (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 5,
+    "mcqCount": 0,
+    "essayCount": 5,
+    "totalPoints": 10.0,
+    "hasKey": true
   },
   {
     "id": 56,
-    "title": "Đề số 56 – Năm 2025-2026 – Lai Châu",
-    "category": "HSG 9 Tỉnh/TP (25-26)",
+    "title": "Đề số 56 – Năm 2025-2026 – TP. Hồ Chí Minh",
+    "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 10,
+    "questionCount": 6,
     "mcqCount": 0,
-    "essayCount": 10,
-    "totalPoints": 34.0,
-    "hasKey": false
+    "essayCount": 6,
+    "totalPoints": 11.0,
+    "hasKey": true
   },
   {
     "id": 57,
-    "title": "Đề số 57 – Năm 2025-2026 – Bạc Liêu",
+    "title": "Đề số 57 – Năm 2025-2026 – Lai Châu",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 10,
+    "questionCount": 4,
     "mcqCount": 0,
-    "essayCount": 10,
-    "totalPoints": 20.0,
-    "hasKey": false
+    "essayCount": 4,
+    "totalPoints": 8.0,
+    "hasKey": true
   },
   {
     "id": 58,
-    "title": "Đề số 58 – Năm 2025-2026 – TP. Hồ Chí Minh",
+    "title": "Đề số 58 – Năm 2025-2026 – Huế",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 12,
+    "questionCount": 5,
     "mcqCount": 0,
-    "essayCount": 12,
-    "totalPoints": 22.0,
-    "hasKey": false
+    "essayCount": 5,
+    "totalPoints": 10.0,
+    "hasKey": true
   },
   {
     "id": 59,
-    "title": "Đề số 59 – Năm 2025-2026 – Lai Châu",
-    "category": "Chuyên Hóa vào 10 (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 8,
-    "mcqCount": 0,
-    "essayCount": 8,
-    "totalPoints": 16.0,
-    "hasKey": false
-  },
-  {
-    "id": 60,
-    "title": "Đề số 60 – Năm 2025-2026 – Huế",
-    "category": "Chuyên Hóa vào 10 (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 10,
-    "mcqCount": 0,
-    "essayCount": 10,
-    "totalPoints": 20.0,
-    "hasKey": false
-  },
-  {
-    "id": 61,
-    "title": "Đề số 61 – Năm 2025-2026 – Hà Nội",
+    "title": "Đề số 59 – Năm 2025-2026 – Hà Nội",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
     "questionCount": 5,
     "mcqCount": 0,
     "essayCount": 5,
     "totalPoints": 8.0,
-    "hasKey": false
+    "hasKey": true
+  },
+  {
+    "id": 60,
+    "title": "Đề số 60 – Năm 2025-2026 – Huế",
+    "category": "Chuyên Hóa vào 10 (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 5,
+    "mcqCount": 0,
+    "essayCount": 5,
+    "totalPoints": 10.0,
+    "hasKey": true
+  },
+  {
+    "id": 61,
+    "title": "Đề số 61 – Năm 2025-2026 – Đà Nẵng",
+    "category": "Chuyên Hóa vào 10 (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 5,
+    "mcqCount": 0,
+    "essayCount": 5,
+    "totalPoints": 10.0,
+    "hasKey": true
   },
   {
     "id": 62,
-    "title": "Đề số 62 – Năm 2025-2026 – Huế",
+    "title": "Đề số 62 – Năm 2025-2026 – Hòa Bình",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 11,
+    "questionCount": 5,
     "mcqCount": 0,
-    "essayCount": 11,
-    "totalPoints": 22.0,
-    "hasKey": false
+    "essayCount": 5,
+    "totalPoints": 10.0,
+    "hasKey": true
   },
   {
     "id": 63,
-    "title": "Đề số 63 – Năm 2025-2026 – Đà Nẵng",
+    "title": "Đề số 63 – Năm 2025-2026 – Thanh Hóa",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 10,
+    "questionCount": 6,
     "mcqCount": 0,
-    "essayCount": 10,
-    "totalPoints": 20.0,
-    "hasKey": false
+    "essayCount": 6,
+    "totalPoints": 9.0,
+    "hasKey": true
   },
   {
     "id": 64,
-    "title": "Đề số 64 – Năm 2025-2026 – Hòa Bình",
+    "title": "Đề số 64 – Năm 2025-2026 – Nghệ An",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 15,
+    "questionCount": 5,
     "mcqCount": 0,
-    "essayCount": 15,
-    "totalPoints": 30.0,
-    "hasKey": false
+    "essayCount": 5,
+    "totalPoints": 20.0,
+    "hasKey": true
   },
   {
     "id": 65,
-    "title": "Đề số 65 – Năm 2025-2026 – Thanh Hóa",
-    "category": "Chuyên Hóa vào 10 (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 14,
-    "mcqCount": 0,
-    "essayCount": 14,
-    "totalPoints": 22.0,
-    "hasKey": false
-  },
-  {
-    "id": 66,
-    "title": "Đề số 66 – Năm 2025-2026 – Nghệ An",
-    "category": "Chuyên Hóa vào 10 (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 10,
-    "mcqCount": 0,
-    "essayCount": 10,
-    "totalPoints": 40.0,
-    "hasKey": false
-  },
-  {
-    "id": 67,
-    "title": "Đề số 67 – Năm 2025-2026 – Hà Tĩnh",
-    "category": "Chuyên Hóa vào 10 (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 36,
-    "mcqCount": 10,
-    "essayCount": 26,
-    "totalPoints": 53.5,
-    "hasKey": false
-  },
-  {
-    "id": 68,
-    "title": "Đề số 68 – Năm 2025-2026 – Gia Lai",
+    "title": "Đề số 65 – Năm 2025-2026 – Hà Tĩnh",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
     "questionCount": 15,
-    "mcqCount": 0,
-    "essayCount": 15,
-    "totalPoints": 32.5,
-    "hasKey": false
+    "mcqCount": 4,
+    "essayCount": 11,
+    "totalPoints": 22.0,
+    "hasKey": true
   },
   {
-    "id": 69,
-    "title": "Đề số 69 – Năm 2025-2026 – Bắc Ninh",
+    "id": 66,
+    "title": "Đề số 66 – Năm 2025-2026 – Gia Lai",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 14,
+    "questionCount": 5,
     "mcqCount": 0,
-    "essayCount": 14,
-    "totalPoints": 25.0,
-    "hasKey": false
+    "essayCount": 5,
+    "totalPoints": 11.25,
+    "hasKey": true
   },
   {
-    "id": 70,
-    "title": "Đề số 70 – Năm 2025-2026 – Phú Thọ",
+    "id": 67,
+    "title": "Đề số 67 – Năm 2025-2026 – Bắc Ninh",
+    "category": "Chuyên Hóa vào 10 (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 4,
+    "mcqCount": 0,
+    "essayCount": 4,
+    "totalPoints": 6.5,
+    "hasKey": true
+  },
+  {
+    "id": 68,
+    "title": "Đề số 68 – Năm 2025-2026 – Phú Thọ",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
     "questionCount": 11,
@@ -770,124 +748,124 @@ window.HSG_EXAMS_INDEX = [
     "hasKey": true
   },
   {
-    "id": 71,
-    "title": "Đề số 71 – Năm 2025-2026 – Quảng Ninh",
+    "id": 69,
+    "title": "Đề số 69 – Năm 2025-2026 – Quảng Ninh",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 15,
+    "questionCount": 5,
     "mcqCount": 0,
-    "essayCount": 15,
-    "totalPoints": 30.0,
-    "hasKey": false
+    "essayCount": 5,
+    "totalPoints": 10.0,
+    "hasKey": true
+  },
+  {
+    "id": 70,
+    "title": "Đề số 70 – Năm 2025-2026 – Hà Nam",
+    "category": "Chuyên Hóa vào 10 (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 9,
+    "mcqCount": 0,
+    "essayCount": 9,
+    "totalPoints": 10.5,
+    "hasKey": true
+  },
+  {
+    "id": 71,
+    "title": "Đề số 71 – Năm 2025-2026 – Khánh Hòa",
+    "category": "Chuyên Hóa vào 10 (25-26)",
+    "durationMinutes": 150,
+    "questionCount": 7,
+    "mcqCount": 0,
+    "essayCount": 7,
+    "totalPoints": 11.0,
+    "hasKey": true
   },
   {
     "id": 72,
-    "title": "Đề số 72 – Năm 2025-2026 – Hà Nam",
+    "title": "Đề số 72 – Năm 2025-2026 – Bắc Giang",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 28,
-    "mcqCount": 0,
-    "essayCount": 28,
-    "totalPoints": 41.0,
-    "hasKey": false
+    "questionCount": 25,
+    "mcqCount": 20,
+    "essayCount": 5,
+    "totalPoints": 26.0,
+    "hasKey": true
   },
   {
     "id": 73,
-    "title": "Đề số 73 – Năm 2025-2026 – Khánh Hòa",
+    "title": "Đề số 73 – Năm 2025-2026 – Tuyên Quang",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 21,
+    "questionCount": 5,
     "mcqCount": 0,
-    "essayCount": 21,
-    "totalPoints": 36.0,
-    "hasKey": false
+    "essayCount": 5,
+    "totalPoints": 10.0,
+    "hasKey": true
   },
   {
     "id": 74,
-    "title": "Đề số 74 – Năm 2025-2026 – Bắc Giang",
+    "title": "Đề số 74 – Năm 2025-2026 – Lâm Đồng",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 55,
-    "mcqCount": 40,
-    "essayCount": 15,
-    "totalPoints": 62.0,
-    "hasKey": false
+    "questionCount": 9,
+    "mcqCount": 0,
+    "essayCount": 9,
+    "totalPoints": 20.0,
+    "hasKey": true
   },
   {
     "id": 75,
-    "title": "Đề số 75 – Năm 2025-2026 – Tuyên Quang",
+    "title": "Đề số 75 – Năm 2025-2026 – Vĩnh Phúc",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 15,
+    "questionCount": 11,
     "mcqCount": 0,
-    "essayCount": 15,
-    "totalPoints": 30.0,
-    "hasKey": false
+    "essayCount": 11,
+    "totalPoints": 13.0,
+    "hasKey": true
   },
   {
     "id": 76,
-    "title": "Đề số 76 – Năm 2025-2026 – Lâm Đồng",
+    "title": "Đề số 76 – Năm 2025-2026 – Sơn La",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 18,
+    "questionCount": 6,
     "mcqCount": 0,
-    "essayCount": 18,
-    "totalPoints": 38.0,
-    "hasKey": false
+    "essayCount": 6,
+    "totalPoints": 12.5,
+    "hasKey": true
   },
   {
     "id": 77,
-    "title": "Đề số 77 – Năm 2025-2026 – Vĩnh Phúc",
+    "title": "Đề số 77 – Năm 2025-2026 – Thái Bình",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 30,
+    "questionCount": 11,
     "mcqCount": 0,
-    "essayCount": 30,
-    "totalPoints": 44.0,
-    "hasKey": false
+    "essayCount": 11,
+    "totalPoints": 12.0,
+    "hasKey": true
   },
   {
     "id": 78,
-    "title": "Đề số 78 – Năm 2025-2026 – Sơn La",
+    "title": "Đề số 78 – Năm 2025-2026 – Nghệ An",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 15,
+    "questionCount": 7,
     "mcqCount": 0,
-    "essayCount": 15,
-    "totalPoints": 30.0,
-    "hasKey": false
+    "essayCount": 7,
+    "totalPoints": 22.5,
+    "hasKey": true
   },
   {
     "id": 79,
-    "title": "Đề số 79 – Năm 2025-2026 – Thái Bình",
+    "title": "Đề số 79 – Năm 2025-2026 – Ninh Thuận",
     "category": "Chuyên Hóa vào 10 (25-26)",
     "durationMinutes": 150,
-    "questionCount": 30,
+    "questionCount": 6,
     "mcqCount": 0,
-    "essayCount": 30,
-    "totalPoints": 42.0,
-    "hasKey": false
-  },
-  {
-    "id": 80,
-    "title": "Đề số 80 – Năm 2025-2026 – Nghệ An",
-    "category": "Chuyên Hóa vào 10 (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 17,
-    "mcqCount": 0,
-    "essayCount": 17,
-    "totalPoints": 50.0,
-    "hasKey": false
-  },
-  {
-    "id": 81,
-    "title": "Đề số 81 – Năm 2025-2026 – Ninh Thuận",
-    "category": "Chuyên Hóa vào 10 (25-26)",
-    "durationMinutes": 150,
-    "questionCount": 17,
-    "mcqCount": 0,
-    "essayCount": 17,
-    "totalPoints": 34.0,
-    "hasKey": false
+    "essayCount": 6,
+    "totalPoints": 12.0,
+    "hasKey": true
   }
 ];

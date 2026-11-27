@@ -51,8 +51,9 @@ def parse_docx_exam(filepath: str, category: str, default_duration: int):
     for i, p in enumerate(paras):
         low = p.lower()
         if i > 10 and (
-            re.match(r"^(hướng dẫn chấm|đáp án|biểu điểm|hdc)\b", low)
+            re.match(r"^(hướng dẫn chấm|đáp án|biểu điểm|hdc|bài giải chi tiết|hướng dẫn giải|lời giải)\b", low)
             or "hướng dẫn chấm" in low[:35]
+            or "bài giải chi tiết" in low[:35]
         ):
             hdc_idx = i
             break
@@ -60,22 +61,19 @@ def parse_docx_exam(filepath: str, category: str, default_duration: int):
     body_paras = paras[:hdc_idx] if hdc_idx else paras
     hdc_paras = paras[hdc_idx:] if hdc_idx else []
 
-    # Bóc tách phần Hóa học nếu là đề KHTN tổng hợp (Lý-Hóa-Sinh)
-    # Tìm đoạn bắt đầu Phần Hóa học nếu có
-    chem_start = 0
-    chem_end = len(body_paras)
-    for i, p in enumerate(body_paras):
+    # Loại bỏ phần Vật lí / Sinh học nếu là đề KHTN tổng hợp, NHƯNG giữ lại Phần chung + Phần Hóa học
+    filtered_body = []
+    skip_non_chem = False
+    for p in body_paras:
         low = p.lower()
-        if re.search(r"(phần|môn|lĩnh vực)\s*(ii\.?\s*)?(hóa học|chất và sự biến đổi)", low):
-            chem_start = i
-            break
-    if chem_start > 0:
-        for j in range(chem_start + 1, len(body_paras)):
-            low = body_paras[j].lower()
-            if re.search(r"^(i+|ii+|iii+|b|c)\.?\s*(phần|lĩnh vực)?\s*(vật l[íý]|sinh học|năng lượng)", low):
-                chem_end = j
-                break
-        body_paras = body_paras[chem_start:chem_end]
+        if re.search(r"^(?:[ivx]+|[a-c]|\d+)?\.?\s*(?:phần|lĩnh vực|phân môn)?\s*(?:vật l[íý]|sinh học|năng lượng và sự biến đổi|vật sống)\b", low) and len(p) < 100:
+            skip_non_chem = True
+            continue
+        if re.search(r"(?:phần|lĩnh vực|phân môn)\s*(?:[ivx]+\.?\s*)?(?:hóa học|chất và sự biến đổi)", low) and len(p) < 120:
+            skip_non_chem = False
+        if not skip_non_chem:
+            filtered_body.append(p)
+    body_paras = filtered_body
 
     # Bóc tách câu trắc nghiệm (MCQ) & câu tự luận (Essay)
     questions = []
